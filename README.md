@@ -1,1 +1,7 @@
-# papaya-disease-detection
+# An Efficient and Optimised Machine Learning Approach to Detect Fungal Disease in Indian Papaya
+
+This repository contains codes of our above titled paper, currently under review. **Codes were primarily developed by [Naveenkumar Srirangan](https://github.com/Navinsrirangan).**
+
+**Authors**: Naveenkumar Srirangan, Md Rakibul Hasan, Mohammed Kaosar
+
+**Abstract**: Papaya, a widely cultivated tropical fruit, faces significant challenges from fungal infections and diseases, resulting in substantial economic losses. Current research on papaya disease recognition is still in the early stages of widespread adoption. To improve the efficiency and scalability of papaya fruit disease recognition, we utilised several publicly available datasets containing images of five main fungal diseases in India. We employed transfer learning with the VGG19 (Visual Geometry Group) architecture to extract useful features from papaya images. We experimented with three different machine learning algorithms: support vector machines (SVM), random forest and K-nearest neighbours, focusing on optimising their performance. The performance of our models was evaluated in terms of accuracy, precision, recall, F1 score, training time and inference time. The classifier using only VGG19 achieved the highest accuracy (0.994), albeit with slower inference times. The VGG19-SVM model provided the fastest prediction (0.28 ms per image) while maintaining a competitive accuracy of 0.988. Other machine learning algorithms exhibited similar accuracy but slightly longer inference times. This research underscores the potential of the VGG19-SVM model for efficient and optimised papaya disease recognition, benefiting farmers and improving overall yield.
